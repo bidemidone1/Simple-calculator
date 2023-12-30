@@ -16,30 +16,30 @@ const num2 = document.querySelector("#num2");
 
 function add() {
     let result = parseInt(num1.value) + parseInt(num2.value);
-    outcome.innerHTML = result
+    outcome.innerHTML = result;
     console.log(result);
 }
 
 function subtract() {
     let result = parseInt(num1.value) - parseInt(num2.value);
-    outcome.innerHTML = result
+    outcome.innerHTML = result;
     console.log(result);
 }
 
 function multiply() {
     let result = parseInt(num1.value) * parseInt(num2.value);
-    outcome.innerHTML = result
+    outcome.innerHTML = result;
     console.log(result);
 }
 
 function divide() {
     let result = parseInt(num1.value) / parseInt(num2.value);
-    outcome.innerHTML = result
+    outcome.innerHTML = result;
     console.log(result);
 }
 
 function modulus() {
     let result = parseInt(num1.value) % parseInt(num2.value);
-    outcome.innerHTML = result
+    outcome.innerHTML = result;
     console.log(result);
 }
